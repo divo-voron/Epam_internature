@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lots>
+  <lot ID="1" Title="iPhone" Bider="your name" EndDate="08.10.2013 19:55:06"></lot>
+  <lot ID="2" Title="iPad" Bider="user2" EndDate="08.10.2013 19:55:06"></lot>
+</lots>

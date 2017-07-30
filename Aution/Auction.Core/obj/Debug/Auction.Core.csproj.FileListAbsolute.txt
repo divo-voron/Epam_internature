@@ -1,0 +1,9 @@
+D:\Aution\Auction.Core\bin\Debug\Auction.Core.dll
+D:\Aution\Auction.Core\bin\Debug\Auction.Core.pdb
+D:\Aution\Auction.Core\obj\Debug\Auction.Core.csprojResolveAssemblyReference.cache
+D:\Aution\Auction.Core\obj\Debug\Auction.Core.dll
+D:\Aution\Auction.Core\obj\Debug\Auction.Core.pdb
+D:\!Epam\!Internature\Aution\Auction.Core\bin\Debug\Auction.Core.dll
+D:\!Epam\!Internature\Aution\Auction.Core\bin\Debug\Auction.Core.pdb
+D:\!Epam\!Internature\Aution\Auction.Core\obj\Debug\Auction.Core.dll
+D:\!Epam\!Internature\Aution\Auction.Core\obj\Debug\Auction.Core.pdb

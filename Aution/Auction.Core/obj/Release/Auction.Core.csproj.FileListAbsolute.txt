@@ -1,0 +1,5 @@
+D:\Aution\Auction.Core\bin\Release\Auction.Core.dll
+D:\Aution\Auction.Core\bin\Release\Auction.Core.pdb
+D:\Aution\Auction.Core\obj\Release\Auction.Core.csprojResolveAssemblyReference.cache
+D:\Aution\Auction.Core\obj\Release\Auction.Core.dll
+D:\Aution\Auction.Core\obj\Release\Auction.Core.pdb

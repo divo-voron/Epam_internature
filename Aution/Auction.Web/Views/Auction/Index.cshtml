@@ -1,0 +1,60 @@
+﻿@model dynamic
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "title";
+}
+
+<h2>AV Auction</h2>
+<div id="lots">
+    <div data-id="1">
+        
+        @* ****************************** *@
+        @*<h1>Lot Name</h1>*@
+        <h1>
+            <label id="LotName">Lot Name</label>
+        </h1>
+        @*<span id="time">42</span><span> sec</span><br/> 
+        <span id="time">Bidder Name</span>*@
+        
+        <span id="time1_1">42</span><span> sec</span><br />
+        <span id="time2_1">Bidder Name</span>
+        @* ****************************** *@
+
+        <form method="POST" target="@Url.Action("MakeBid")">
+            <input name="id" type="hidden" value="1"/>
+            <input name="Name" value="your name" type="text"/>
+            <input type="submit" value="Make Bid"/>
+        </form>
+    </div>
+
+    <div data-id="2">
+
+        @* ****************************** *@
+        @*<h1>Lot Name</h1>*@
+        <h1>
+            <label id="LotName">Lot Name</label>
+        </h1>
+        @*<span id="time">42</span><span> sec</span><br/>
+        <span id="time">Bidder Name</span>*@
+        <span id="time1_2">42</span><span> sec</span><br />
+        <span id="time2_2">Bidder Name</span>
+        @* ****************************** *@
+
+    </div>
+    <form method="POST"  target="@Url.Action("MakeBid")">
+        <input name="id" type="hidden" value="2"/>
+        <input name="Name" value="your name" type="text"/>
+        <input type="submit" value="Make Bid"/>
+    </form>
+
+    <button onclick="makeBid()" id="button">Make Bid 123</button>
+
+    <div>
+        <h1>Your bids</h1>
+        <ul id="yourbids">
+            @*<li><span class="name">Name</span> <span class="time">TimeOfBid</span> <span class="lotid">LotID</span></li>*@
+        </ul>
+    </div>
+</div>
+
